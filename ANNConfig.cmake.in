@@ -1,0 +1,5 @@
+set(ANN_LIBRARIES @ANN_LIBRARIES@)
+
+if(NOT TARGET ann)
+  include("${CMAKE_CURRENT_LIST_DIR}/ANNTargets.cmake")
+endif()
